@@ -11,7 +11,6 @@ var AuthorSchema = new Schema(
   }
 );
 
-// Virtual for author's full name
 AuthorSchema
 .virtual('name')
 .get(function () {
